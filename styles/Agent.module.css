@@ -1,0 +1,67 @@
+.header {
+  font-weight: 200;
+  font-size: 4rem;
+  margin: 10px 0 20px 20px;
+}
+
+.body {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.agentCard {
+  background-color: #fff;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.5);
+  width: 15rem;
+  height: 20rem;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  border-radius: 20px;
+}
+
+
+.agentImg {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 10px;
+}
+
+.agentName {
+  font-weight: 300;
+}
+
+.agentCompany {
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+
+.agentLocation {
+  font-weight: 400;
+  font-size: .9rem;
+}
+
+.agentExperience {
+  font-weight: 300;
+  font-size: 0.8rem;
+  color: #888;
+}
+
+.contactBtn {
+  background-color: var(--color-One);
+  border: none;
+  border-radius: 20px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin: 10px 0;
+  color: #fff;
+}
+.contactBtn:hover {
+  background-color: var(--color-Two);
+  color: #000;
+}
